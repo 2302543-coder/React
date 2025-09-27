@@ -8,11 +8,16 @@ import Classes from './IntroSamples/Classes'
 function App() {
   return (
     <>
+    <div class="container">
+
     <h1  id="title">My React Practice</h1>
     <div className="one">
       <Intro1 />
     </div>
-     <Classes />
+    <h2 id="title">Classes</h2>
+      <Classes />
+
+      </div>
     </>
     
   )

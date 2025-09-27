@@ -1,12 +1,34 @@
+
+
 class Car {
   constructor(name) {
     this.brand = name;
   }
+
+  present() {
+    return "I have a " + this.brand;
+  }
 }
 
-function CarExample() {
-  const mycar = new Car("Ford");
-  return <h2>My car brand is: {mycar.brand}</h2>;
+class Model extends Car {
+  constructor(name, mod) {
+    super(name);
+    this.model = mod;
+  }
+
+  show() {
+    return this.present() + ", it is a " + this.model;
+  }
 }
 
-export default CarExample;
+function Classes() {
+  const mycar = new Model("Ford", "Mustang");
+
+  return (
+    <div>
+      <h2>{mycar.show()}</h2>
+    </div>
+  );
+}
+
+export default Classes;
