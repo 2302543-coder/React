@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './AppmyCss.css'
 import Intro1 from './IntroSamples/Intro1'
 import Classes from './IntroSamples/Classes'
+import ArrowFunctions from './IntroSamples/ArrowFunctions'
 
 function App() {
   return (
@@ -16,8 +17,11 @@ function App() {
     </div>
     <h2 id="title">Classes</h2>
       <Classes />
-
+      <h1 id="title">Functions</h1>
+      <ArrowFunctions />
       </div>
+      
+
     </>
     
   )
