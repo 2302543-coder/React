@@ -9,19 +9,14 @@ import ArrowFunctions from './IntroSamples/ArrowFunctions'
 function App() {
   return (
     <>
-    <div class="container">
-
+    <div>
     <h1  id="title">My React Practice</h1>
-    <div className="one">
-      <Intro1 />
-    </div>
+      <Intro1 /> 
     <h2 id="title">Classes</h2>
       <Classes />
       <h1 id="title">Functions</h1>
       <ArrowFunctions />
       </div>
-      
-
     </>
     
   )
