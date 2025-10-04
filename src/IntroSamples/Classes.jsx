@@ -26,6 +26,7 @@ function Classes() {
 
   return (
     <div>
+      <h1 id="title">Classes</h1>
       <h2>{mycar.show()}</h2>
     </div>
   );
