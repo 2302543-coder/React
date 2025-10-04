@@ -6,6 +6,7 @@ import Intro1 from './IntroExpre/Intro1'
 import Classes from './IntroExpre/Classes'
 import ArrowFunctions from './IntroExpre/ArrowFunctions'
 import Car from './Attributes/attributes'
+import FirstIf from './Ifstatements/fruit'
 
 function App() {
   return (
@@ -21,10 +22,15 @@ function App() {
           <ArrowFunctions />
         </div>
       </div>
+
       <div className="container">
         <div className="col">
           <Car />
         </div>
+        <div className="col">
+          <FirstIf />
+        </div>
+
 
        </div>
     </>
